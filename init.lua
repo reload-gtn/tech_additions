@@ -1,6 +1,7 @@
 minetest.register_node("tech_additions:iron_ingot_block", {
     description = "Block TA1 Iron Ingot",
-    tiles = { 'tech_additions_iron_ingot_block.png' }
+    tiles = { 'tech_additions_iron_ingot_block.png' },
+    groups = {cracky = 3}
 })
 
 minetest.register_craft({
