@@ -1,3 +1,2 @@
 # tech_additions
-additions of techage mod
-MTSR
+additions for some tech mod "server MTSR"

@@ -1,21 +1,5 @@
-minetest.register_node("tech_additions:iron_ingot_block", {
-    description = "Block TA1 Iron Ingot",
-    tiles = { 'tech_additions_iron_ingot_block.png' },
-    groups = {cracky = 3}
-})
+--additions for techage mod
+dofile(minetest.get_modpath("tech_additions") .. "/techage.lua")
 
-minetest.register_craft({
-    output = 'tech_additions:iron_ingot_block',
-    recipe = {
-        { "techage:iron_ingot", "techage:iron_ingot", "techage:iron_ingot", },
-        { "techage:iron_ingot", "techage:iron_ingot", "techage:iron_ingot", },
-        { "techage:iron_ingot", "techage:iron_ingot", "techage:iron_ingot", }
-    }
-})
-
-minetest.register_craft({
-    output = 'techage:iron_ingot 9',
-    recipe = {
-		{'tech_additions:iron_ingot_block',},
-	}
-})
+--additions for multidecor package
+dofile(minetest.get_modpath("tech_additions") .. "/multidecor.lua")
