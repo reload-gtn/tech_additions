@@ -1,3 +1,5 @@
+S = minetest.get_translator("tech_additions")
+
 --additions for techage mod
 dofile(minetest.get_modpath("tech_additions") .. "/techage.lua")
 

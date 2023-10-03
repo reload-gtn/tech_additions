@@ -1,5 +1,3 @@
-local S = minetest.get_translator("tech_additions")
-
 minetest.register_node("tech_additions:iron_ingot_block", {
     description = S("Block TA1 Iron Ingot"),
     tiles = { 'tech_additions_iron_ingot_block.png' },
