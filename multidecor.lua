@@ -1,12 +1,12 @@
 minetest.register_node("tech_additions:wolfram_ingot_block", {
-    description = "Block Multidecor Wolfram Ingot",
-    tiles = { 'tech_additions_wolfram_ingot_block.png' },
+    description = S("Wolfram block"),
+    tiles = { 'tech_additions_wolfram_block.png' },
     groups = { cracky = 3 }
 })
 
 minetest.register_node("tech_additions:zinc_ingot_block", {
-    description = "Block Multidecor Zinc Ingot",
-    tiles = { 'tech_additions_zinc_ingot_block.png' },
+    description = S("Zinc block"),
+    tiles = { 'tech_additions_zinc_block.png' },
     groups = { cracky = 3 }
 })
 
