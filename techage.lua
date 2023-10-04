@@ -19,3 +19,25 @@ minetest.register_craft({
         { 'tech_additions:iron_ingot_block', },
     }
 })
+
+minetest.register_node("tech_additions:baborium_block", {
+    description = S("Baborium Block"),
+    tiles = { 'tech_additions_baborium_ingot_block.png' },
+    groups = { cracky = 3 }
+})
+
+minetest.register_craft({
+    output = 'tech_additions:baborium_block',
+    recipe = {
+        { "techage:baborium_ingot", "techage:baborium_ingot", "techage:baborium_ingot", },
+        { "techage:baborium_ingot", "techage:baborium_ingot", "techage:baborium_ingot", },
+        { "techage:baborium_ingot", "techage:baborium_ingot", "techage:baborium_ingot", }
+    }
+})
+
+minetest.register_craft({
+    output = 'techage:baborium_ingot 9',
+    recipe = {
+        { 'tech_additions:baborium_block', },
+    }
+})
