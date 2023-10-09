@@ -1,3 +1,5 @@
+local S = minetest.get_translator("tech_additions")
+
 minetest.register_node("tech_additions:iron_block", {
     description = S("TA1 Iron block"),
     tiles = { 'tech_additions_iron_block.png' },

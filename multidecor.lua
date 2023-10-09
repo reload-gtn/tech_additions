@@ -1,3 +1,5 @@
+local S = minetest.get_translator("tech_additions")
+
 minetest.register_node("tech_additions:wolfram_ingot_block", {
     description = S("Wolfram block"),
     tiles = { 'tech_additions_wolfram_block.png' },
