@@ -8,3 +8,6 @@ end
 
 --additions for basic_materials mod
 dofile(minetest.get_modpath("tech_additions") .. "/basic_materials.lua")
+
+--add air block
+dofile(minetest.get_modpath("tech_additions") .. "/airblock.lua")
