@@ -43,3 +43,14 @@ minetest.register_craft({
         { 'tech_additions:baborium_block', },
     }
 })
+
+minetest.register_craft({
+    output = 'techage:ta3_barrel_oil',
+    recipe = {
+        { 'multidecor:consolidated_oil', 'multidecor:consolidated_oil', 'techage:ta3_barrel_empty'},
+        { 'multidecor:consolidated_oil', 'multidecor:consolidated_oil', 'multidecor:consolidated_oil'},
+        { 'multidecor:consolidated_oil', 'multidecor:consolidated_oil', 'multidecor:consolidated_oil'},
+    }
+})
+
+techage.add_grinder_recipe({input="multidecor:consolidated_oil", output="techage:plastic_granules"})
