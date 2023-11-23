@@ -11,3 +11,8 @@ dofile(minetest.get_modpath("tech_additions") .. "/basic_materials.lua")
 
 --add air block
 dofile(minetest.get_modpath("tech_additions") .. "/airblock.lua")
+
+--additions for moreores
+if minetest.get_modpath("moreores") then
+dofile(minetest.get_modpath("tech_additions") .. "/moreores.lua")
+end

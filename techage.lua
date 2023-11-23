@@ -53,4 +53,13 @@ minetest.register_craft({
     }
 })
 
+minetest.register_craft({
+    output = 'techage:ta4_injector_pas',
+    recipe = {
+        { '', 'techage:aluminum', ''},
+        { '', 'techage:ta3_injector_pas', ''},
+        { '', 'techage:ta4_wlanchip', ''},
+    }
+})
+
 techage.add_grinder_recipe({input="multidecor:consolidated_oil", output="techage:plastic_granules"})
