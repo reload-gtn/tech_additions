@@ -4,3 +4,11 @@ minetest.register_craft({
         { "moreores:mithril_block" },
     }
 }) 
+
+minetest.register_craft({
+    output = 'moreores:silver_ingot 9',
+    recipe = {
+        { "moreores:silver_block" },
+    }
+}) 
+
