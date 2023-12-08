@@ -16,3 +16,6 @@ dofile(minetest.get_modpath("tech_additions") .. "/airblock.lua")
 if minetest.get_modpath("moreores") then
 dofile(minetest.get_modpath("tech_additions") .. "/moreores.lua")
 end
+
+--add extra cobble
+dofile(minetest.get_modpath("tech_additions") .. "/extra_cobble.lua")
