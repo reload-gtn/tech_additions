@@ -28,7 +28,14 @@ minetest.register_node("tech_additions:amphibolite", {
     groups = {crumbly = 2},
 })
 
-techage.add_grinder_recipe({input="tech_additions:amphibolite_cobble", output="tech_additions:amphibolite"})
+--techage.add_grinder_recipe({input="tech_additions:amphibolite_cobble", output="tech_additions:amphibolite"})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "tech_additions:amphibolite",
+	recipe = "tech_additions:amphibolite_cobble",
+	cooktime = 20,
+})
 
 minetest.register_node("tech_additions:amphibolite_brick", {
     description = S("Amphibolite brick"),
