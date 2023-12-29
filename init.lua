@@ -19,3 +19,8 @@ end
 
 --add extra cobble
 dofile(minetest.get_modpath("tech_additions") .. "/extra_cobble.lua")
+
+--additions for moreores
+if minetest.get_modpath("jonez") then
+    dofile(minetest.get_modpath("tech_additions") .. "/jonez.lua")
+end
